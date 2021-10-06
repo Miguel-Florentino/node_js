@@ -63,7 +63,7 @@ app.post('/mult', (req,res) => {
     let n1 = parseInt(nums.num1);
     let n2 = parseInt(nums.num2);
     let n3 = parseInt(nums.num3);
-    let mult = 1 * 1 * 4;
+    let mult =n1 * n2 * n3;
     let parsedMult = mult.toString();
     res.send(parsedMult);
 });
